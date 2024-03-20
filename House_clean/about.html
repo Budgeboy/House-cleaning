@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+</head>
+<body>
+     <!-- Preloader -->
+     <div class="loader-wrapper">
+      <div class="loader">
+      </div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+
+    <header class="menu__wrapper">
+      <div class="menu__bar">
+          <a
+              href="index.html"
+              title="Logo"
+          >
+              <img
+                  class="logo"
+                  src="assets/images/house-clean1-removebg-preview.png"
+                  title='Logo'
+                  alt='Logo'
+              >
+          </a>
+          <img
+              class="menu-icon"
+              src="assets/images/menu.svg"
+              title='Burger Menu'
+              alt='Burger Menu'
+              onclick="toggleMenu(this)"
+          >
+          <ul class="navigation">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.php">About Us</a></li>
+              <li><a href="service.php">Services</a></li>
+              <li><a href="contact.php">Contact</a></li>
+          </ul>
+      </div>
+    </header>
+    <main>
+        <section class="about-history">
+        <div class="about_head">
+        <h1>Few Words About Us</h1>
+    </div>
+            <div class="about-container">
+                <div class="about_topic">
+                    <h1>Our History</h1>
+                    <p>The Big Cleanup cleaning company has been working in this industry for more than 10 years, providing perfect cleaning services!</p>
+                    <p>We're ready to clean up your home, office, house or a warehouse with an astounding and acute precision. We'll leave your premises sparkling clean and smelling all nice and fresh. Now is the time to defeat your home’s messes once and for all! Using our professional and ecologically friendly services, all of our customers will be able to enjoy an absolutely amazing level of crystal clear, snow white sparkling, crispy clean!</p>
+                </div>
+                <div class="about_topic">
+                    <h1>Our Vision</h1>
+                    <p>The Big Cleanup cleaning company has been working in this industry for more than 10 years, providing perfect cleaning services!</p>
+                    <p>We're ready to clean up your home, office, house or a warehouse with an astounding and acute precision. We'll leave your premises sparkling clean and smelling all nice and fresh. Now is the time to defeat your home’s messes once and for all! Using our professional and ecologically friendly services, all of our customers will be able to enjoy an absolutely amazing level of crystal clear, snow white sparkling, crispy clean!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="FAQs">
+            <div class="container">
+                <h1 class="heading-primary">FAQs</h1>
+                <div class="accordion">
+                  <dl>
+                    <dt>
+                      <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle js-accordionTrigger">First Accordion heading</a>
+                    </dt>
+                    <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                      <p>Lorem ipsum dolor sit amet, consectetur <a href="https://www.google.com">Test</a>adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. </p>
+                      <p>Aliquam dapibus, ante quis fringilla feugiat, mauris risus condimentum massa, at elementum libero quam ac ligula. Pellentesque at rhoncus dolor. Duis porttitor nibh ut lobortis aliquam. Nullam eu dolor venenatis mauris placerat tristique eget id dolor. Quisque blandit adipiscing erat vitae dapibus. Nulla aliquam magna nec elementum tincidunt.</p>
+                    </dd>
+                    <dt>
+                      <a href="#accordion2" aria-expanded="false" aria-controls="accordion2" class="accordion-title accordionTitle js-accordionTrigger">
+                        Second Accordion heading</a>
+                    </dt>
+                    <dd class="accordion-content accordionItem is-collapsed" id="accordion2" aria-hidden="true">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. </p>
+                      <p>Aliquam dapibus, ante quis fringilla feugiat, mauris risus condimentum massa, at elementum libero quam ac ligula. Pellentesque at rhoncus dolor. Duis porttitor nibh ut lobortis aliquam. Nullam eu dolor venenatis mauris placerat tristique eget id dolor. Quisque blandit adipiscing erat vitae dapibus. Nulla aliquam magna nec elementum tincidunt.</p>
+                    </dd>
+                    <dt>
+                      <a href="#accordion3" aria-expanded="false" aria-controls="accordion3" class="accordion-title accordionTitle js-accordionTrigger">
+                        Third Accordion heading
+                      </a>
+                    </dt>
+                    <dd class="accordion-content accordionItem is-collapsed" id="accordion3" aria-hidden="true">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. </p>
+                      <p>Aliquam dapibus, ante quis fringilla feugiat, mauris risus condimentum massa, at elementum libero quam ac ligula. Pellentesque at rhoncus dolor. Duis porttitor nibh ut lobortis aliquam. Nullam eu dolor venenatis mauris placerat tristique eget id dolor. Quisque blandit adipiscing erat vitae dapibus. Nulla aliquam magna nec elementum tincidunt.</p>
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+        </section>
+    </main>
+
+
+    <footer>
+      <div class="top_header">
+        <section>
+          <img src="assets/images/house-clean1-removebg-preview.png" alt="" class="footer_logo">
+        </section>
+      <section>
+      <span><i class="fa fa-map-marker"></i></span>
+      <span>4096 N Highland St, Arlington
+        VA 32101, USA</span>
+      </section>
+      <section>
+      <span><i class="fa fa-phone"></i></span>
+      <span>+1 (612) 298-5247</span>
+      </section>
+      <section>
+      <span><i class="fa fa-envelope"></i></span>
+      <span>info@websitename.com</span>
+      </section>
+      </div>
+      <span class="border-shape"></span>
+      <div class="bottom_content">
+      <section>
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a>
+      <a href="#"><img src="assets/images/twitter-x.svg" alt=""></a>
+      <a href="#"><i class="bi bi-whatsapp"></i></a>
+      </section>
+      <section>
+      <a href="index.html">Home</a>
+      <a href="about.php">About us</a>
+      <a href="service.php">Services</a>
+      <a href="#">News</a>
+      <a href="contact.php">Contact Us</a>
+      </section>
+      </div>
+      <div class="copyright">
+        <small>© Atheros Intelligence Ltd. <span id="year"></span>, All rights reserved</small>
+      </div>
+      </footer>
+
+
+
+    
+
+
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+      //FAQs
+        (function(){
+	var d = document,
+	accordionToggles = d.querySelectorAll('.js-accordionTrigger'),
+	setAria,
+	setAccordionAria,
+	switchAccordion,
+  touchSupported = ('ontouchstart' in window),
+  pointerSupported = ('pointerdown' in window);
+  
+  skipClickDelay = function(e){
+    e.preventDefault();
+    e.target.click();
+  }
+
+		setAriaAttr = function(el, ariaType, newProperty){
+		el.setAttribute(ariaType, newProperty);
+	};
+	setAccordionAria = function(el1, el2, expanded){
+		switch(expanded) {
+      case "true":
+      	setAriaAttr(el1, 'aria-expanded', 'true');
+      	setAriaAttr(el2, 'aria-hidden', 'false');
+      	break;
+      case "false":
+      	setAriaAttr(el1, 'aria-expanded', 'false');
+      	setAriaAttr(el2, 'aria-hidden', 'true');
+      	break;
+      default:
+				break;
+		}
+	};
+//function
+switchAccordion = function(e) {
+  console.log("triggered");
+	e.preventDefault();
+	var thisAnswer = e.target.parentNode.nextElementSibling;
+	var thisQuestion = e.target;
+	if(thisAnswer.classList.contains('is-collapsed')) {
+		setAccordionAria(thisQuestion, thisAnswer, 'true');
+	} else {
+		setAccordionAria(thisQuestion, thisAnswer, 'false');
+	}
+  	thisQuestion.classList.toggle('is-collapsed');
+  	thisQuestion.classList.toggle('is-expanded');
+		thisAnswer.classList.toggle('is-collapsed');
+		thisAnswer.classList.toggle('is-expanded');
+ 	
+  	thisAnswer.classList.toggle('animateIn');
+	};
+	for (var i=0,len=accordionToggles.length; i<len; i++) {
+		if(touchSupported) {
+      accordionToggles[i].addEventListener('touchstart', skipClickDelay, false);
+    }
+    if(pointerSupported){
+      accordionToggles[i].addEventListener('pointerdown', skipClickDelay, false);
+    }
+    accordionToggles[i].addEventListener('click', switchAccordion, false);
+  }
+})();
+
+
+// For Live Projects
+window.addEventListener('load',function(){
+  document.querySelector('body').classList.add("loaded")  
+});
+
+    </script>
+</body>
+</html>
